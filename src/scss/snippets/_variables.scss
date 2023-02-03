@@ -1,0 +1,48 @@
+$mq-tablet: 'screen and (min-width: 768px)';
+$mq-desktop: 'screen and (min-width: 1024px)';
+$mq-desktop-large: 'screen and (min-width: 1440px)';
+
+:root {
+  //REAL COLORS
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-black-50: rgba(0, 0, 0, 0.5);
+  --color-husk: #BA9D5E;
+
+  //USE CASE COLORS
+  --color-primary: var(--color-black);
+  --color-secondary: var(--color-husk);
+  --color-tertiary: var(--color-white);
+
+  //FONT FAMILY
+  --font-family: 'Lato', sans-serif;
+
+  //FONT WEIGHT
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  //FONT SIZE
+  --font-size-xxs: 14px;
+  --font-size-xs: 16px;
+  --font-size-s: 20px;
+  --font-size-m: 24px;
+  --font-size-l: 32px;
+
+  //BORDER RADIUS
+  --border-radius: 5px;
+
+  //DISTANCES
+  --distance-xxs: 6px;
+  --distance-xs: 12px;
+  --distance-s: 18px;
+  --distance-m: 24px;
+  --distance-l: 36px;
+  --distance-xl: 48px;
+  --distance-xxl: 72px;
+
+  //Z-INDEX
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-3: 3;
+}
