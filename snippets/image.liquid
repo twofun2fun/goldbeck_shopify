@@ -1,0 +1,9 @@
+{% assign alt = alt | append: " | Goldbeck Design" %}
+
+{{ image | image_url: width: width | image_tag:
+ width: image.width,
+ height: image.height,
+ class: class,
+ sizes: sizes,
+ widths: widths,
+ alt: alt }}

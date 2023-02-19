@@ -1,0 +1,47 @@
+<section class="hero">
+    {% render 'image', image: section.settings.image, class: "hero__image", sizes: sizes, widths: "374, 400, 600", alt: section.settings.image.alt %}
+    <h1>{{ section.settings.headline }}</h1>
+    <h2>{{ section.settings.subline }}</h2>
+    <a href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Bild auswählen"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "default": "Das ist eine Überschrift",
+      "label": "Headline"
+    },
+    {
+      "type": "text",
+      "id": "subline",
+      "default": "Das ist eine Unterüberschrift",
+      "label": "Subline"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "URL - Button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Text - Button"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
