@@ -7,11 +7,11 @@ $mq-desktop-large: 'screen and (min-width: 1440px)';
   --color-black: #000000;
   --color-white: #FFFFFF;
   --color-black-50: rgba(0, 0, 0, 0.5);
-  --color-husk: #BA9D5E;
+  --color-sandy-beach: #FFEEC9;
 
   //USE CASE COLORS
   --color-primary: var(--color-black);
-  --color-secondary: var(--color-husk);
+  --color-secondary: var(--color-sandy-beach);
   --color-tertiary: var(--color-white);
 
   //FONT FAMILY
@@ -45,4 +45,7 @@ $mq-desktop-large: 'screen and (min-width: 1440px)';
   --z-index-1: 1;
   --z-index-2: 2;
   --z-index-3: 3;
+
+  //MAX-WIDTH
+  --max-width: 1440px;
 }
